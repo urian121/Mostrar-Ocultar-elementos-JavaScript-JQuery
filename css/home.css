@@ -5,6 +5,16 @@ h1{
     font-weight: 800;
     font-size: 50px;
 }
+h4{
+	color:#fff; 
+	background-color: #55468c;
+}
+.titulo{
+	border-radius: 5px;
+	color: #555;
+    font-weight: 800;
+    font-size: 50px;
+}
 .menu a{
 	margin-bottom: 5px;
 	color: #555;
@@ -90,4 +100,14 @@ border-radius: 50%;
 	color: black;
 	text-align: center;
 	background-color: yellow;
+}
+
+
+
+/*mostra y ocultar con css */
+#ocultarElemento {
+	display: none;
+}
+#chk:checked + #ocultarElemento {
+	display: block;
 }
