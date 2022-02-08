@@ -4,9 +4,9 @@ $(function () {
     $(".menu a").click(function () {
         //Uso hasClass para preguntar si es cierto que el elemento html (donde se hizo click) tiene dicha clase.
         if ($(this).hasClass('activa')) {
-            console.log('Si tiene la classe acitva');
+            console.log('Si tiene la classe activa');
         } else {
-            console.log('No tiene la classe acitva');
+            console.log('No tiene la classe activa');
         }
     });
 });
